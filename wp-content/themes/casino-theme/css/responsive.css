@@ -1,0 +1,327 @@
+@media (max-width: 1170px) {
+    .ocs-container,
+    section {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media screen and (max-width: 991px) {
+    header nav ul,
+    header .ocs-container,
+    .footer-nav.flex-box,
+    .top5_box .top5 tbody tr {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .home section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .home section h2:not(:first-child) {
+        margin-top: 40px;
+    }
+    .head-center {
+        width: 100%;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .head-center div {
+        max-width: inherit;
+    }
+    .ocs-header-right {
+        width: 80%;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    header nav {
+        display: none;
+    }
+    header nav li {
+        margin-right: 0!important;
+    }
+    header nav ul a {
+        padding: 10px 0;
+    }
+    header nav ul li,
+    header nav ul li a,
+    .footer-nav li,
+    .footer-nav li a {
+        width: 100%;
+    }
+    .page-notfound::before,
+    .page-notfound::after {
+        display: none;
+    }
+    .sub-menu {
+        display: block;
+        position: static;
+        padding: 10px 30px;
+        background: inherit;
+        box-shadow: none;
+    }
+    .sub-menu li {
+        background: inherit;
+    }
+    .sub-menu li a, .sub-menu li a:hover, .sub-menu li a:visited {
+        color: #FFFFFF;
+    }
+    .summary-box ul {
+        column-count: 1;
+    }
+    .footer-nav li {
+        margin-bottom: .7rem;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    blockquote {
+        width: 100%;
+        padding: 80px 30px 30px;
+    }
+    .bordered {
+        padding: 15px;
+    }
+    .fairness p, .title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    h1, .h1 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    h2, .h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    h3, .h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    h4, .h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    h5, .h5 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    h6, .h6 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .casino-item,
+    /* .brand-general, */
+    .text-right {
+        text-align: center;
+    }
+    .brand-slot-page table .text-right {
+        text-align: right;
+    }
+    .game-main, .game-options {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .game-logo {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    .f-right {
+        float: none;
+    }
+    .counter {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+    }
+    .top5_box .top5 tbody tr td {
+        width: 100%;
+    }
+    main h2, main h3, main h4,
+    .brand-general h3 {
+        margin-top: .5rem;
+        margin-bottom: .75rem;
+    }
+    .mt-3 {
+        margin-top: 1.5rem;
+    }
+    .home .wp-block-table thead {
+        padding: 0 15px;
+    }
+    .home .wp-block-table table tr td:first-child {
+        padding-right: 15px;
+    }
+    .casino-v .casino-h .game-logo {
+        width: 65px;
+    }
+    .casino-v .casino-h .rate {
+        left: inherit;
+    }
+    .home h1, .home h2 {
+        margin-top: 1rem;
+    }
+    .casino-casino-item {
+        margin-bottom: 30px;
+    }
+    .exp-horizontal .flex-box {
+        text-align: center;
+    }
+    .brand-slot-page .stars {
+        margin-top: 15px;
+    }
+    .flag-top::after,
+    .flag-top::before {
+        left: 20px;
+    }
+    .top5_box .top5 td[data-type="logo"] {
+        max-width: inherit;
+    }
+    .peaky-box .top5_box .top5 tbody tr:first-child {
+        margin-top: 20px;
+    }
+    .green-list, .tips-box,
+    .expert-vertical .light-purple-box {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header nav {
+        display: block;
+    }
+    .peaky-box .top5_box .top5 tbody tr {
+        height: 110px;
+    }
+    .best-casino ul {
+        columns: 2;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .casino-item .col-3 {
+        padding-right: 0;
+    }
+    .game-main::before {
+        content: "";
+        position: absolute;
+        right: -15px;
+        top: 15px;
+        width: 1px;
+        height: calc(100% - 30px);
+        background: rgba(40, 40, 40, 0.25);
+    }
+    .best-box {
+        position: absolute;
+        bottom: -3.5rem;
+        height: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .top5_box .top5 tbody tr td h5,
+    .top5_box .top5 tbody tr td li:last-child {
+        margin-bottom: 0;
+    }
+    .expert-box.exp-horizontal .expert-info {
+        width: calc(100% - 120px);
+    }
+    .brand-slot-page .tables-row table {
+        width: 87%;
+    }
+    .brand-page .checked-list {
+        columns: 2;
+    }
+    .col-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+    .col-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .col-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .align-bottom .ocs-row {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .ratings-row .col-3 {
+        -ms-flex: 0 0 28%;
+        flex: 0 0 28%;
+        max-width: 28%;
+    }
+    .ratings-row .col-3:nth-child(2) {
+        margin: 0 8%;
+    }
+    blockquote p:last-child {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .searchform input {
+        width: 100%;
+    }
+    .notfound-box p {
+        font-size: 140px;
+    }
+    .flex-box:not(.footer-logo) {
+        display: block;
+    }
+    footer .flex-box img {
+        margin-right: 15px;
+    }
+}
